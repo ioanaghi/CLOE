@@ -42,7 +42,7 @@ The system will include:
 - Cloud-based processing of webcam imagery.
 - A complex machine learning model before obtaining validated data.
 
-## 6. Success Criteria
+## 6. Success Criteria 
 
 A successful MVP should:
 
