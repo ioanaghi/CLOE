@@ -524,31 +524,34 @@ Planned objectives:
 
 Student explanation:
 
-_To be completed._
+Gaze point: is a point where the person is looking on the screen
+Fixation: is where a person's look is stable and stays for longer
+Saccade: is ejrn watching a screen the eyes move faste so when reading a text you follow the words, that is what saccade is
 
 **Question 2 — Why does 60 Hz correspond to approximately 16.67 ms between samples?**
 
 Student explanation:
 
-_To be completed._
+It is because te meaning of 60Hz indicates 60 samples taken per seconf so 1/60 means 16.67 ms
 
 **Question 3 — What does calibration correct for?**
 
 Student explanation:
 
-_To be completed._
+Every person is different, every environment is different, so we calibrate in order to get better estimations on where the person is actually looking onto the screen. eliminating as much as possible the error in estimation.
+
 
 **Question 4 — Why is an SDK import not proof that the eye tracker is connected?**
 
 Student explanation:
 
-_To be completed._
+Because the SDK is just the software that detects the eyetracher and let's you communicate with it not creates the connectivity.
 
 **Question 5 — What is one possible cause of invalid gaze samples?**
 
 Student explanation:
 
-_To be completed._
+not being in the area where the sensor is, covering the eyes
 
 ### Engineering Reflection
 
