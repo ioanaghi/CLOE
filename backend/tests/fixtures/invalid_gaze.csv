@@ -1,0 +1,4 @@
+device_time_stamp,system_time_stamp,left_gaze_point_validity,right_gaze_point_validity,left_gaze_point_on_display_area_0,left_gaze_point_on_display_area_1,right_gaze_point_on_display_area_0,right_gaze_point_on_display_area_1
+1000000,2000000,1,1,0.5,0.5,0.5,0.5
+1016667,2016667,1,0,nan,nan,nan,nan
+1033334,2033334,1,1,0.4,0.4,0.4,0.4
