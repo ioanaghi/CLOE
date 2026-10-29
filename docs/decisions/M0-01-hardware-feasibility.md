@@ -605,3 +605,32 @@ Screenshots and terminal logs should be stored without unnecessary personal info
 **Remaining verification:** Independent Python installation and gaze-data acquisition.
 
 **Next experiment:** M0.2 — First Gaze Data Acquisition.
+
+### Learning Exercise — Handling Invalid Gaze Samples
+
+An invalid gaze sample should not be included directly when calculating the average gaze position.
+
+If the valid samples before and after the missing measurement are similar, the user may have maintained a relatively stable gaze position. The missing sample could have been caused by blinking or temporary eye occlusion.
+
+For the initial CLOE implementation, I would calculate the average using only valid samples.
+
+Interpolation could be considered later for short gaps, but estimated values must be distinguished from actual measurements.
+
+I also learned that the percentage of valid samples can be used as a data-quality indicator, although it does not directly represent measurement accuracy.
+
+### Learning Exercise — Insufficient Gaze Data
+
+If only 15 out of 60 gaze samples are valid, the data validity rate is 25%.
+
+I would not use this one-second window alone to determine whether the user is focused or cognitively fatigued.
+
+Even if an average gaze position can be calculated, it does not provide enough information to reliably estimate the user's cognitive state.
+
+The distribution of valid samples across the time window also matters.
+
+**Proposed design decision:** When gaze-data quality is insufficient, CLOE should avoid triggering a new interface adaptation based on those measurements.
+
+The system should distinguish between an estimated cognitive state and insufficient information.
+
+The exact data-quality thresholds will need to be established and validated experimentally.
+
