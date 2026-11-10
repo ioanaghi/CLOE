@@ -1,0 +1,11 @@
+{
+  "experiment": "M0.3-T05-C",
+  "raw_recording": "tobii_20261029T143930551761Z.csv",
+  "feature_file": "tobii_20261029T143930551761Z_window_features.csv",
+  "nominal_hz": 60,
+  "min_gaze_availability": 0.8,
+  "min_nominal_sample_ratio": 0.8,
+  "min_usable_nominal_ratio": 0.7,
+  "require_complete_window": true,
+  "completeness_method": "observed_timestamp_bounds_proxy"
+}
