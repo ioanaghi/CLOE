@@ -1,0 +1,12 @@
+{
+  "experiment": "M0.4-T02-C",
+  "recording": "tobii_20261029T143930551761Z",
+  "nominal_hz": 60,
+  "max_gap_ratio": 1.5,
+  "thresholds": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "velocity_unit": "normalized_display_units_per_second"
+}
