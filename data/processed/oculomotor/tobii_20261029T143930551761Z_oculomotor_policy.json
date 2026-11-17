@@ -1,0 +1,20 @@
+{
+  "experiment": "M0.4-T03-D",
+  "source_recording": "tobii_20261029T143930551761Z.csv",
+  "source_sha256": "7ec5e25093751345f428efbf9e049f86ab71507000dbc0bbc818ad3d06739fa7",
+  "sample_count": 576,
+  "velocity_interval_count": 575,
+  "available_velocity_count": 525,
+  "unknown_velocity_count": 50,
+  "nominal_hz": 60,
+  "max_gap_ratio": 1.5,
+  "thresholds": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "velocity_unit": "normalized_display_units_per_second",
+  "duration_unit": "milliseconds",
+  "duration_method": "device_timestamp_difference",
+  "threshold_status": "illustrative_not_validated"
+}

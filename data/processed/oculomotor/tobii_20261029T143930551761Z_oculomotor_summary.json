@@ -1,0 +1,122 @@
+[
+  {
+    "threshold": 2.0,
+    "features": {
+      "total_intervals": 575,
+      "segment_count": 40,
+      "interval_count_by_state": {
+        "LOW_VELOCITY": 493,
+        "HIGH_VELOCITY": 32,
+        "UNKNOWN": 50
+      },
+      "interval_share_by_state": {
+        "LOW_VELOCITY": 0.8573913043478261,
+        "HIGH_VELOCITY": 0.05565217391304348,
+        "UNKNOWN": 0.08695652173913043
+      },
+      "segment_count_by_state": {
+        "LOW_VELOCITY": 19,
+        "HIGH_VELOCITY": 14,
+        "UNKNOWN": 7
+      },
+      "total_duration_ms_by_state": {
+        "LOW_VELOCITY": 8210.762000000002,
+        "HIGH_VELOCITY": 532.949,
+        "UNKNOWN": 897.186
+      },
+      "mean_duration_ms_by_state": {
+        "LOW_VELOCITY": 432.14536842105275,
+        "HIGH_VELOCITY": 38.06778571428571,
+        "UNKNOWN": 128.16942857142857
+      },
+      "max_duration_ms_by_state": {
+        "LOW_VELOCITY": 2315.001,
+        "HIGH_VELOCITY": 66.619,
+        "UNKNOWN": 498.813
+      },
+      "transition_count": 39,
+      "direct_low_high_transitions": 26,
+      "internal_unknown_runs": 6
+    }
+  },
+  {
+    "threshold": 5.0,
+    "features": {
+      "total_intervals": 575,
+      "segment_count": 30,
+      "interval_count_by_state": {
+        "LOW_VELOCITY": 510,
+        "HIGH_VELOCITY": 15,
+        "UNKNOWN": 50
+      },
+      "interval_share_by_state": {
+        "LOW_VELOCITY": 0.8869565217391304,
+        "HIGH_VELOCITY": 0.02608695652173913,
+        "UNKNOWN": 0.08695652173913043
+      },
+      "segment_count_by_state": {
+        "LOW_VELOCITY": 14,
+        "HIGH_VELOCITY": 9,
+        "UNKNOWN": 7
+      },
+      "total_duration_ms_by_state": {
+        "LOW_VELOCITY": 8493.890000000001,
+        "HIGH_VELOCITY": 249.821,
+        "UNKNOWN": 897.186
+      },
+      "mean_duration_ms_by_state": {
+        "LOW_VELOCITY": 606.7064285714287,
+        "HIGH_VELOCITY": 27.75788888888889,
+        "UNKNOWN": 128.16942857142857
+      },
+      "max_duration_ms_by_state": {
+        "LOW_VELOCITY": 2331.656,
+        "HIGH_VELOCITY": 49.965,
+        "UNKNOWN": 498.813
+      },
+      "transition_count": 29,
+      "direct_low_high_transitions": 16,
+      "internal_unknown_runs": 6
+    }
+  },
+  {
+    "threshold": 10.0,
+    "features": {
+      "total_intervals": 575,
+      "segment_count": 23,
+      "interval_count_by_state": {
+        "LOW_VELOCITY": 518,
+        "HIGH_VELOCITY": 7,
+        "UNKNOWN": 50
+      },
+      "interval_share_by_state": {
+        "LOW_VELOCITY": 0.9008695652173913,
+        "HIGH_VELOCITY": 0.01217391304347826,
+        "UNKNOWN": 0.08695652173913043
+      },
+      "segment_count_by_state": {
+        "LOW_VELOCITY": 11,
+        "HIGH_VELOCITY": 5,
+        "UNKNOWN": 7
+      },
+      "total_duration_ms_by_state": {
+        "LOW_VELOCITY": 8627.128000000002,
+        "HIGH_VELOCITY": 116.583,
+        "UNKNOWN": 897.186
+      },
+      "mean_duration_ms_by_state": {
+        "LOW_VELOCITY": 784.2843636363639,
+        "HIGH_VELOCITY": 23.3166,
+        "UNKNOWN": 128.16942857142857
+      },
+      "max_duration_ms_by_state": {
+        "LOW_VELOCITY": 4113.707,
+        "HIGH_VELOCITY": 33.31,
+        "UNKNOWN": 498.813
+      },
+      "transition_count": 22,
+      "direct_low_high_transitions": 9,
+      "internal_unknown_runs": 6
+    }
+  }
+]

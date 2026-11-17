@@ -1,0 +1,53 @@
+[
+  {
+    "threshold": 2.0,
+    "summary": {
+      "window_count": 20,
+      "quality_gate_counts": {
+        "ELIGIBLE": 16,
+        "UNKNOWN": 4
+      },
+      "feature_status_counts": {
+        "AVAILABLE": 16,
+        "UNAVAILABLE": 4
+      },
+      "unavailable_reasons": {
+        "QUALITY_GATE_UNKNOWN": 4
+      }
+    }
+  },
+  {
+    "threshold": 5.0,
+    "summary": {
+      "window_count": 20,
+      "quality_gate_counts": {
+        "ELIGIBLE": 16,
+        "UNKNOWN": 4
+      },
+      "feature_status_counts": {
+        "AVAILABLE": 16,
+        "UNAVAILABLE": 4
+      },
+      "unavailable_reasons": {
+        "QUALITY_GATE_UNKNOWN": 4
+      }
+    }
+  },
+  {
+    "threshold": 10.0,
+    "summary": {
+      "window_count": 20,
+      "quality_gate_counts": {
+        "ELIGIBLE": 16,
+        "UNKNOWN": 4
+      },
+      "feature_status_counts": {
+        "AVAILABLE": 16,
+        "UNAVAILABLE": 4
+      },
+      "unavailable_reasons": {
+        "QUALITY_GATE_UNKNOWN": 4
+      }
+    }
+  }
+]

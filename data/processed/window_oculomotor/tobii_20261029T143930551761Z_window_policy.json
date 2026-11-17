@@ -1,0 +1,24 @@
+{
+  "experiment": "M0.4-T04-C",
+  "recording": "tobii_20261029T143930551761Z.csv",
+  "raw_sha256": "7ec5e25093751345f428efbf9e049f86ab71507000dbc0bbc818ad3d06739fa7",
+  "window_csv_sha256": "b798b1fd7393e0059bc63e26eefefa02598294960f807f336f7ab974fd8a154d",
+  "quality_csv_sha256": "97787327c0aec8554e17cc6b561c99dc4674782d2f574ab1d6db4baff7775ebf",
+  "samples": 576,
+  "velocity_intervals": 575,
+  "windows": 20,
+  "quality_counts": {
+    "ELIGIBLE": 16,
+    "UNKNOWN": 4
+  },
+  "thresholds": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "nominal_hz": 60,
+  "max_gap_ratio": 1.5,
+  "alignment_method": "fully_contained_velocity_intervals",
+  "velocity_unit": "normalized_display_units_per_second",
+  "threshold_status": "illustrative_not_validated"
+}

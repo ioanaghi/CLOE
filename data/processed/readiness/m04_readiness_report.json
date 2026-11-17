@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Required artifacts exist",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "name": "C4 CSV/JSON and M0.3 baseline consistency",
+      "status": "PASS"
+    }
+  ],
+  "warnings": [],
+  "scenario_results": {
+    "BASELINE": {
+      "eligible": 16,
+      "unknown": 4,
+      "windows": 20
+    },
+    "INVALID_3": {
+      "eligible": 16,
+      "unknown": 4,
+      "windows": 20
+    },
+    "DROPOUT_3": {
+      "eligible": 16,
+      "unknown": 4,
+      "windows": 20
+    },
+    "DROPOUT_10_PERCENT": {
+      "eligible": 16,
+      "unknown": 4,
+      "windows": 20
+    }
+  },
+  "source_sha256": {
+    "data\\raw\\tobii\\tobii_20261029T143930551761Z.csv": "7ec5e25093751345f428efbf9e049f86ab71507000dbc0bbc818ad3d06739fa7",
+    "data\\processed\\tobii_20261029T143930551761Z_quality_decisions.csv": "97787327c0aec8554e17cc6b561c99dc4674782d2f574ab1d6db4baff7775ebf",
+    "data\\processed\\degradation\\t05_c4_quality_decisions.csv": "348b2ffa66df9d992d72a320b8c58446c184dea7ec7980ca5b3938d103162061",
+    "data\\processed\\degradation\\t05_c4_quality_summary.json": "40701de61fa2286a44fb8498d4c493c8769b4db41bbd64a4ee60ed743e43a3fb"
+  },
+  "scientific_validation": "NOT_ESTABLISHED"
+}

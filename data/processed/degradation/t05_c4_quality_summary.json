@@ -1,0 +1,49 @@
+{
+  "experiment": "M0.4-T05-C4",
+  "source_recording": "tobii_20261029T143930551761Z.csv",
+  "original_start_timestamp": 15076560995,
+  "recording_duration_s": 9.640897,
+  "reference_windows": 20,
+  "policy": {
+    "min_gaze_availability": 0.8,
+    "min_nominal_sample_ratio": 0.8,
+    "min_usable_nominal_ratio": 0.7,
+    "require_complete_window": true
+  },
+  "scenarios": {
+    "BASELINE": {
+      "modified_samples": 0,
+      "received_samples": 576,
+      "windows": 20,
+      "eligible": 16,
+      "unknown": 4
+    },
+    "INVALID_3": {
+      "modified_samples": 3,
+      "received_samples": 576,
+      "windows": 20,
+      "eligible": 16,
+      "unknown": 4,
+      "newly_rejected": [],
+      "recovered": []
+    },
+    "DROPOUT_3": {
+      "modified_samples": 3,
+      "received_samples": 573,
+      "windows": 20,
+      "eligible": 16,
+      "unknown": 4,
+      "newly_rejected": [],
+      "recovered": []
+    },
+    "DROPOUT_10_PERCENT": {
+      "modified_samples": 57,
+      "received_samples": 519,
+      "windows": 20,
+      "eligible": 16,
+      "unknown": 4,
+      "newly_rejected": [],
+      "recovered": []
+    }
+  }
+}
